@@ -7,6 +7,11 @@ p {
     font-size: 15px;
     width: 288px;
     height: 56px;
+    color: hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 body {
     display: flex;
@@ -21,20 +26,23 @@ h1 {
     font-size: 21px;
     width: 288px;
     height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 #main-content {
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-style:solid;
+    border-style: solid;
     border-color: white;
     border-radius: 20px;
     align-items: center;
-    padding: 8px 8px 8px 8px;
+    padding: 8px;
     height: 457px;
     width: 320px;
-    
 }
 #text {
     width: 288px;
